@@ -11,7 +11,7 @@ AltConvert = ((((AvgAlt) - LivingAlt) / 500)/100)         # change altitude fact
 AltLTpwr = (LTpwr*(1-AltConvert))
 
 ##### CONVERT ACTVITY TIME TO SECONDS #####
-time = '1:30:00'
+time = '1:30:00'                    # input activity time here hh:mm:ss
 split_time = time.split(':')
 hours = int(split_time[0])
 minutes = int(split_time [1])
