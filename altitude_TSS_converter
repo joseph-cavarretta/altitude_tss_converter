@@ -1,13 +1,13 @@
 ##### INPUT BASELINE LT VALUES #####
-LTpwr = 300
-LivingAlt = 5500
+LTpwr = 300                         # threshold power
+LivingAlt = 5500                    # in feet
 
 ##### INPUT ACTIVITY DATA #####
 AvgAlt = 11000
 AvgPwr = 210
 
 ##### CALCULATE CHANGE IN LT BASED ON ALTITUDE #####
-AltConvert = ((((AvgAlt) - LivingAlt) / 500)/100)
+AltConvert = ((((AvgAlt) - LivingAlt) / 500)/100)         # change altitude factor here if you know yours
 AltLTpwr = (LTpwr*(1-AltConvert))
 
 ##### CONVERT ACTVITY TIME TO SECONDS #####
