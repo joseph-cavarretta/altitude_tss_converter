@@ -1,5 +1,5 @@
 # altitude_TSS_converter
-A converter for Training Stress Score taking into account the altitude of your activity and the altitude you live at.
+A converter for Training Stress Score taking into account the altitude of your training activity and the altitude you live at.
 
 Must have an accurate threshold power, average elevation of activity, and living altitude.
 This code assumes an altitude factor of 1% per 500' altitude, as this has been cited as a good population estimate. 
